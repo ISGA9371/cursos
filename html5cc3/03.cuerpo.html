@@ -108,6 +108,7 @@
             <table border="1">
             
                 <thead>
+<!--                    etiqueta para determinar el emcabesado de la tabla-->
                 
                     <tr>
 
@@ -119,6 +120,7 @@
                 </thead>
                 
                 <tbody>
+<!--                    etiqueta para el cuerpo de la tabla -->
                     
                     <tr>
 
@@ -143,6 +145,32 @@
             <p>Andres: <meter value="60" min="0" max="100" high="90"></meter></p>
             <p>Ana: <meter value="85" min="0" max="100" high="90"></meter></p>
             <p>Pedro: <meter value="45" min="0" max="100" high="90"></meter></p>
+            
+            <h2>resultados de ventas</h2>
+            <p>Enero: <progress value="94" min="0" max="100"></progress></p>
+            <p>Febrero: <progress value="60" min="0" max="100"></progress></p>
+            <p>Marzo: <progress value="85" min="0" max="100"></progress></p>
+            <p>Abril: <progress value="45" min="0" max="100"></progress></p>
+    
+            <audio autoplay controls loop preload="auto">
+<!--        autoplay se repodruce automaticamente
+            controls muestra el controlador del audio
+            loop se reproduce infinitamente
+            son boleanos puede o no puebe declararce
+            preload - auto por defecto carga el archivo de audio
+                    - metadata le informa al navegador que aga la carga del archivo de audio cuando aga play
+                    - none no hacer la precarga del archivo de sonido se carga solo cuando el usuario lo va a utilizar
+            formatos
+                ogg verbis .ogg
+                mp3
+                wav
+                acc m4a m4b m4p mp4 acc-->
+                
+                <source src="audio/audio.m4a" type="audio/mp4">
+                <source src="audio/audio.mp3" type="audio/mp3">
+                <source src="audio/audio.ogg" type="audio/ogg">
+            
+            </audio>
             
             <footer>Este es el prie de pagina</footer>
             
